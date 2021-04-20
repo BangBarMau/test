@@ -24,3 +24,6 @@ class createTeacher(QDialog):
         changeForm = changePassTeacher()
         changeForm.exec_()
 
+    def test(self):
+        print('gay')
+
