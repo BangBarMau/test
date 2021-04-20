@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginFrame</class>
+ <widget class="QDialog" name="loginFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1941</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1941</width>
+     <height>1041</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>change pass.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QFrame" name="rightFrame">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>140</y>
+     <width>1011</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+background-color: rgb(255, 255, 255);
+border-radius: 20px
+}
+
+
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="welcomeLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>1011</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 46pt &quot;Bebas&quot;;
+	color: rgb(25, 25, 26);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Change Password</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnChangeStudent">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>620</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(0, 74, 173);
+	color: rgb(255, 255, 255);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Done</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputEmailChange">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>380</y>
+      <width>551</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border: 2px solid gray;
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNewPass2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>540</y>
+      <width>551</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border: 2px solid gray;
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Confirm Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNewPass">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>460</y>
+      <width>551</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border: 2px solid gray;
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>New Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnChangeBackStudent">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>620</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(254, 206, 47);
+	color: rgb(0, 74, 173);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 20px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <zorder>btnChangeStudent</zorder>
+   <zorder>welcomeLabel</zorder>
+   <zorder>inputEmailChange</zorder>
+   <zorder>inputNewPass2</zorder>
+   <zorder>inputNewPass</zorder>
+   <zorder>btnChangeBackStudent</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>btnChangeStudent</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

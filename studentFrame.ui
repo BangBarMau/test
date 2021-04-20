@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentFrame</class>
+ <widget class="QDialog" name="studentFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1950</width>
+    <height>1050</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="studentFrameNew">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1951</width>
+     <height>1061</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(21, 31, 41);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>1661</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnSet">
+     <property name="geometry">
+      <rect>
+       <x>1270</x>
+       <y>590</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Set Appointment</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputAppointmentSubject">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>150</y>
+       <width>701</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Appointment Subject</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmbInstructor">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>250</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(21, 31, 41);
+background-color: rgb(231, 231, 231);
+font: 14pt &quot;Montserrat&quot;;
+border-radius:-20px solid gray;</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>--Select Instructor--</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>0</y>
+       <width>1001</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 40pt &quot;Bebas&quot;;
+color: rgb(21, 31, 41);
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>APPOINTMENT FORM</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>-20</y>
+       <width>581</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(21, 31, 41);
+border-radius: 20px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>581</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:40pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Record</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="widgetStudentRecord">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>131</y>
+        <width>481</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Montserrat&quot;;
+border-radius:-20px;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTextEdit" name="textDetails">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>360</y>
+       <width>701</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="accessibleDescription">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:2px solid gray;
+font: 12pt &quot;Montserrat&quot;;
+</string>
+     </property>
+     <property name="documentTitle">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bntReset">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>590</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>220</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold 14pt &quot;montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Set Appointment to:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>310</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Details:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmbDepartment">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>250</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(21, 31, 41);
+background-color: rgb(231, 231, 231);
+font: 14pt &quot;Montserrat&quot;;
+border-radius:-20px solid gray;</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>--Select Department--</string>
+      </property>
+     </item>
+    </widget>
+    <zorder>label_6</zorder>
+    <zorder>label_3</zorder>
+    <zorder>inputAppointmentSubject</zorder>
+    <zorder>btnSet</zorder>
+    <zorder>label</zorder>
+    <zorder>frame_3</zorder>
+    <zorder>textDetails</zorder>
+    <zorder>bntReset</zorder>
+    <zorder>cmbInstructor</zorder>
+    <zorder>cmbDepartment</zorder>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>60</y>
+      <width>701</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:50pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>COLLEGE OF COMPUTER STUDIES</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>1649</x>
+      <y>159</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnStudentLogout">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(21, 31, 41);
+background-color: rgb(255, 255, 255);
+border-radius: 40px;
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>40</y>
+      <width>201</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>111</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>upperBlue2.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputAppointmentSubject</tabstop>
+  <tabstop>cmbInstructor</tabstop>
+  <tabstop>textDetails</tabstop>
+  <tabstop>btnSet</tabstop>
+  <tabstop>bntReset</tabstop>
+  <tabstop>btnStudentLogout</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,3252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginFrame</class>
+ <widget class="QDialog" name="loginFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1940</width>
+    <height>1049</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1951</width>
+     <height>1061</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>1951</width>
+      <height>1071</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>newdashboard.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_14">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>190</y>
+      <width>541</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(11, 17, 51);
+border-radius: 20px;
+
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>541</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:40pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>Computer science</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_38">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_217">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r1Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_219">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_25">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_220">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r1Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_39">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_222">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r2Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_224">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_26">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_225">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r2Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_40">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>340</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_227">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r3Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_229">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_27">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_230">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r3Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_41">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>460</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+border: 2px solid navy blue;
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_232">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r4Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_234">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_28">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_235">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r4Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_42">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>580</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_237">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r5Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_239">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_29">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_240">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r5Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_43">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>700</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_242">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r6Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_244">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_30">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_245">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c1r6Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_15">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>190</y>
+      <width>541</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(11, 17, 51);
+border-radius: 20px;
+
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>541</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:40pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>Information Teachnology</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_44">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_218">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r1Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_221">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_31">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_223">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r1Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_45">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_226">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r2Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_228">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_32">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_231">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r2Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_46">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>340</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_233">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r3Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_236">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_33">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_238">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r3Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_47">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>460</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+border: 2px solid navy blue;
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_241">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r4Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_243">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_34">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_246">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r4Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_48">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>580</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_247">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r5Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_248">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_35">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_249">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r5Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_49">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>700</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_250">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r6Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_251">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_36">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_252">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c2r6Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_16">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>190</y>
+      <width>541</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(11, 17, 51);
+border-radius: 20px;
+
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>541</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font:40pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>Information System</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_50">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_253">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r1Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_254">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_37">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_255">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r1Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_51">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_256">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r2Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_257">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_38">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_258">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r2Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_52">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>340</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_259">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r3Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_260">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_39">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_261">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r3Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_53">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>460</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+border: 2px solid navy blue;
+
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_262">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r4Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_263">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_40">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_264">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r4Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_54">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>580</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_265">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r5Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_266">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_41">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_267">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r5Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_55">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>700</y>
+       <width>441</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+border: 2px solid navy blue;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_268">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 11pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>On-going</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r6Student">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>421</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Kyle Lamocha</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_269">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 10pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Guest/Student</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_42">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>411</width>
+        <height>1</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(25, 25, 26);</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_270">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+font: 13pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="c3r6Teacher">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	font: 75 16pt &quot;Montserrat&quot;;
+border-radius: 5px;
+	color: rgb(25, 25, 26);
+
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Patrick Oliva</string>
+      </property>
+      <property name="placeholderText">
+       <string>Appointment Subject</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

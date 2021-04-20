@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GuestFrame</class>
+ <widget class="QDialog" name="GuestFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1950</width>
+    <height>1050</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="GuestFrameNew">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1951</width>
+     <height>1061</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(21, 31, 41);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>1661</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnGuestSet">
+     <property name="geometry">
+      <rect>
+       <x>1270</x>
+       <y>630</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Set Appointment</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputGuestAppointmentSubject">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>150</y>
+       <width>1321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Appointment Subject</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>1661</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 40pt &quot;Bebas&quot;;
+color: rgb(21, 31, 41);
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>GUEST APPOINTMENT FORM</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="inputGuestDetails">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>390</y>
+       <width>1321</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="accessibleDescription">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:2px solid gray;
+font: 12pt &quot;Montserrat&quot;;
+</string>
+     </property>
+     <property name="documentTitle">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bntGuestReset">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>630</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>630</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold 14pt &quot;montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Set Appointment to:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>340</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Details:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputGuestFirstName">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>280</y>
+       <width>461</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>First Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputGuestLastName">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>280</y>
+       <width>461</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Last Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputGuestContact">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>280</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid gray;
+color: rgb(21, 31, 41);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Contact Number</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>230</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: bold 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Guest Details:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmbGuestDepartment">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>630</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(21, 31, 41);
+background-color: rgb(231, 231, 231);
+font: 14pt &quot;Montserrat&quot;;
+border-radius:-20px solid gray;</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>--Select Department--</string>
+      </property>
+     </item>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_3</zorder>
+    <zorder>inputGuestAppointmentSubject</zorder>
+    <zorder>btnGuestSet</zorder>
+    <zorder>label</zorder>
+    <zorder>inputGuestDetails</zorder>
+    <zorder>bntGuestReset</zorder>
+    <zorder>inputGuestFirstName</zorder>
+    <zorder>inputGuestLastName</zorder>
+    <zorder>inputGuestContact</zorder>
+    <zorder>cmbGuestDepartment</zorder>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>60</y>
+      <width>701</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:50pt &quot;Bebas&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>COLLEGE OF COMPUTER STUDIES</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>1649</x>
+      <y>159</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btnGuestExit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(21, 31, 41);
+background-color: rgb(255, 255, 255);
+border-radius: 40px;
+font: 14pt &quot;Montserrat&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>40</y>
+      <width>201</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>111</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>upperBlue2.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputGuestAppointmentSubject</tabstop>
+  <tabstop>inputGuestLastName</tabstop>
+  <tabstop>inputGuestFirstName</tabstop>
+  <tabstop>inputGuestContact</tabstop>
+  <tabstop>inputGuestDetails</tabstop>
+  <tabstop>btnGuestSet</tabstop>
+  <tabstop>bntGuestReset</tabstop>
+  <tabstop>btnGuestExit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

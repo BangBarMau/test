@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginFrame</class>
+ <widget class="QDialog" name="loginFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1949</width>
+    <height>1048</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1951</width>
+     <height>1061</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1951</width>
+      <height>1071</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>login and create.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1011</width>
+      <height>1051</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QComboBox" name="cmbCourse">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>500</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+border: 2px solid gray;
+	font: 14pt &quot;Montserrat&quot;;
+color: rgb(25, 25, 26);
+border-radius: 10px;
+}
+
+</string>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>--Select Course--</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="inputID">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>500</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}
+
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>ID Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputFirst">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>570</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>First</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputMI">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>570</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>MI</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputLast">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>570</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Last</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputContact">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>640</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Contact Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputConfirmation">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>710</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Confirm Password</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputEmail2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>640</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Email</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputPassword2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>710</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border: 2px solid gray;
+color: rgb(25, 25, 26);
+font: 14pt &quot;Montserrat&quot;;
+border-radius: 10px;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnRegister2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>790</y>
+       <width>761</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(0, 74, 173);
+	font: 14pt &quot;Montserrat&quot;;
+	color: rgb(255, 255, 255);
+border-radius: 20px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Register</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>340</y>
+       <width>1011</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 46pt &quot;Bebas&quot;;
+color: rgb(25, 25, 26);</string>
+     </property>
+     <property name="text">
+      <string>REGISTRATION FORM</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnReturnToLogin">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>880</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 255, 255);
+	font: 14pt &quot;Montserrat&quot;;
+	color: rgb(0, 74, 173);
+}</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>880</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 14pt &quot;Montserrat&quot;;
+	color: rgb(25, 25, 26);
+}</string>
+     </property>
+     <property name="text">
+      <string>Already have and account?</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>20</y>
+       <width>711</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>logoQueuing.png</pixmap>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>cmbCourse</zorder>
+    <zorder>inputID</zorder>
+    <zorder>inputFirst</zorder>
+    <zorder>inputMI</zorder>
+    <zorder>inputLast</zorder>
+    <zorder>inputContact</zorder>
+    <zorder>inputConfirmation</zorder>
+    <zorder>inputEmail2</zorder>
+    <zorder>inputPassword2</zorder>
+    <zorder>btnRegister2</zorder>
+    <zorder>label_2</zorder>
+    <zorder>btnReturnToLogin</zorder>
+    <zorder>label_3</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputID</tabstop>
+  <tabstop>cmbCourse</tabstop>
+  <tabstop>inputFirst</tabstop>
+  <tabstop>inputLast</tabstop>
+  <tabstop>inputMI</tabstop>
+  <tabstop>inputEmail2</tabstop>
+  <tabstop>inputContact</tabstop>
+  <tabstop>inputPassword2</tabstop>
+  <tabstop>inputConfirmation</tabstop>
+  <tabstop>btnRegister2</tabstop>
+  <tabstop>btnReturnToLogin</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
